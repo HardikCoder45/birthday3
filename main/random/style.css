@@ -1,0 +1,138 @@
+.img{
+    width:200px;
+    height: 200px;
+    border-radius: 15px;
+    box-shadow: 29px 9px 24px 0px rgba(0,0,0,0.53);
+        align-self: center;
+ 
+    margin-top: 0px; 
+
+}
+.container1{
+align-self: center;
+background-color: gainsboro;
+width:33%;
+height: 37%;
+ margin: auto;
+ position: absolute;
+ margin-top: 200px;
+ margin-left: 435px;
+ box-shadow: 29px 9px 24px 0px rgba(0,0,0,0.53);
+ border-radius: 30px;
+
+
+}
+body{
+background-size: 1280px;
+ background-image: url('https://static.vecteezy.com/system/resources/previews/007/455/521/original/colorful-low-poly-background-polygonal-design-pattern-bright-mosaic-modern-geometric-design-creative-design-templates-connected-lines-with-dots-free-vector.jpg');
+}
+.h1{
+font-size: 55px;
+font-weight: bolder;
+font-family: 'Courier New', Courier, monospace;
+text-align: center;
+color:rgba(255, 0, 0, 0.541);
+margin-top: 20px;
+margin-left: 150px;
+}
+.img1{
+width:200px;
+height:200px;
+margin-left: 60px;
+margin-top: 140px;
+
+}
+.img2{
+    width:200px;
+    height:200px;
+    margin-left: 30px;
+    margin-top: 140px;
+    transform: rotate(-90deg);
+}
+.img3{
+    width:80px;
+    height: 80px;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.img4{
+    width:80px;
+    height: 80px;
+    margin-top:50px;
+    margin-left:10px;
+}
+.img5{
+    width:80px;
+    height: 80px;
+    margin-top:-100px
+    
+}
+.img6{
+    width:80px;
+    height: 80px;
+    margin-top:-100px
+}
+.img9{
+    width:80px;
+    height: 130px;
+    margin-top:0px;
+    margin-left: 20px;
+}
+.me{
+font-size: 25px;
+font-weight: bolder;
+text-align: center;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.me1{
+    font-size: 15px;
+font-weight: bolder;
+text-align: center;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+margin-top: -20px;
+}
+
+@media only screen and (max-width: 450px) {
+     .h1{
+    font-size: 40px;
+    margin-left: 10px;
+     }
+     .img9{
+        margin-left: -10px;
+     }
+     .img3{
+      display: none;
+    }
+    .img4{
+        display: none;
+    }
+    .img5{
+       display: none;
+        
+    }
+    .img6{
+       display: none;
+    }
+    .img1{
+        width:170px;
+        height:170px;
+        margin-left: 0px;
+        margin-top: 140px;
+        
+        }
+        .img2{
+            width:200px;
+            height:200px;
+            margin-top: 140px;
+            transform: rotate(-90deg);
+            margin-left: -30px;
+        }
+        img{
+    width:100px;
+    height: 250px;
+    margin-left: -30px;
+        }
+        body{
+            background-size: 1700px;
+        }
+  }
